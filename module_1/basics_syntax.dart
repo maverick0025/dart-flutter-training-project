@@ -14,9 +14,9 @@ class User{
 
   User({this.id, this.name, this.email});
 
-  Map<dynamic, dynamic> toJson() {
+  Map<String, dynamic> toJson() {
 
-    Map<dynamic, dynamic> map = new Map<dynamic, dynamic>();
+    Map<String, dynamic> map = new Map<String, dynamic>();
     map["id"] = id;
     map["name"] = name;
     map["email"] = email;
